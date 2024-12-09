@@ -31,8 +31,9 @@ const contentSchema = new mongoose.Schema({
         color: String,
         textAlign: String,
         backgroundColor: String, // Only background color
-    }, 
+    },
 });
+//hello
 // Create Content Model
 const Content = mongoose.model('Content', contentSchema);
 // Cloudinary Configuration
