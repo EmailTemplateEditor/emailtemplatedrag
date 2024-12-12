@@ -34,7 +34,7 @@ const contentSchema = new mongoose.Schema({
     },
 });
 //hello
-//worldgit
+//world
 // Create Content Model
 const Content = mongoose.model('Content', contentSchema);
 // Cloudinary Configuration
